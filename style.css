@@ -1,0 +1,155 @@
+*{margin: 0;
+box-sizing: border-box;}
+
+.home{
+    background-image: url('images/drew-coffman-1872.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.home .content{
+    background-color: rgba(0, 0, 0,0.5);
+    height:100%;
+}
+
+.home .caption{
+    text-align: center;
+    padding-top: 200px;
+    color: bisque;
+}
+.home .caption h1{
+    font-size: 60px;
+}
+.home .caption p{
+    font-size: 30px;
+    padding: 40px 0;
+}
+.home .caption .btn{
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: solid 1px #F8F8F8;
+    color: #F8F8F8;
+}
+.home .caption .bg-btn{
+    background-color: #8C6E52;
+    border: none;
+}
+.home .content nav .nav-img{
+    width: 20%;
+}
+.home .content nav .nav-img img{
+    width: 100%;
+}
+.clearfix{
+    clear:both;
+}
+.about{
+    margin-top: 70px;
+}
+.about .container{
+    margin: auto;
+    width: 80%;
+}
+.about .about-img{
+    float: left;
+    width: 50%;
+}
+.about .about-img img{
+    width: 100%;
+}
+.about .container .about-caption{
+    width: 50%;
+    float: left;
+ padding: 10px 50px;
+ 
+}
+.about .container .about-caption p{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 20px;
+    color: #B68068;
+}
+.about .container .about-caption h2{
+    font-size: 30px;
+}
+.about .container .about-caption .about-list ul li{
+float: left;
+}
+.about .container .about-caption .about-list ul li img{
+    width:10%;
+    padding-top : 10px;}
+    .about .container .about-list img{
+        padding-top : 40px;
+    }
+
+.about .container .about-caption .about-list ul{
+    list-style-type: none;
+}
+.our-location{
+    background-color:#F8F8F8;
+    margin-top: 50px;
+}
+.our-location .container{
+width: 80%;
+margin: auto;
+}
+.our-location .container .location-caption{
+    float: left;
+    width: 40%;
+    padding-right: 50px;
+
+}
+.our-location .container .location-caption p{
+    padding: 10px 20px;
+    text-align: center;
+}
+.our-location .container .location-caption h2{
+    padding: 50px 0;
+}
+.our-location .container .location-img{
+    float: left;
+    width: 60%;
+}
+.our-location .container .location-img img{
+    width: 100%;
+}
+.our-baking{
+    margin-top: 50px;
+}
+.our-baking .container{
+    width: 80%;
+    margin: auto;
+}
+.our-baking .container .baking-caption{
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-baking .container .baking-items .item{
+    width: 33.333%;
+    float: left;
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 20px;
+
+}
+.our-baking .container .baking-items .item img{
+    width: 100%;
+}
+.contact{
+    background-color: #F8F8F8;
+    padding-top: 50px;
+    margin-top: 20px;
+}
+.container .icons{
+    width:100%;
+}
+.container .icons img{
+    width: 7%;
+  background-color: #8C6E52;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+.container .icons ul{
+    list-style-type: none;
+}

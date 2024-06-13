@@ -1,0 +1,75 @@
+
+@media screen and (max-width: 600px) {
+   .about .container .about-img  {
+      width: 100%;
+      
+    }
+}
+@media screen and (max-width: 600px) {
+    .about .container .about-caption {
+      width: 100%;
+      text-align: center;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .our-location .container .location-caption{
+      width: 100%;
+      text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .our-location .container .location-img  {
+      width: 100%;
+      
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+    .our-baking .container .baking-items .item {
+      width: 100%;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .our-baking .container .baking-items .item { 
+      width: 50%;
+
+    }
+    
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+   .our-baking .container .baking-items .item { 
+      width: 33.33333%;
+
+    }
+    
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+   .our-baking .container .baking-items .item { 
+      width: 25%;
+
+    }
+    
+}
